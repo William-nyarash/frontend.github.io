@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/William-nyarash/frontend.github.io.git)
-- VIew Live : [Add live site URL here](https://github.com/William-nyarash/frontend.github.io.git)
+- VIew Live : [Add live site URL here](https://william-nyarash.github.io/frontend.github.io/)
 
 ## My process
 
@@ -67,4 +67,4 @@ I would like to explore more on creating cool css animations
 
 ## Author
 
-- Frontend Mentor - [@William-nyarash](https://www.frontendmentor.io/profile/@William-nyarash)
+- Frontend Mentor - [@William-nyarash](https://www.frontendmentor.io/profile/William-nyarash)
