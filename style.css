@@ -1,150 +1,63 @@
-body{
-        background: #dad2d252;
+*,*::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
 }
-section{
-        margin-left: 12px;
+body {
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(0, 0%, 8%);
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
 }
-#introduction {
-        color: rgb(252, 251, 250);
-        background: repeating-linear-gradient(127deg, rgb(59, 184, 206)10%, rgb(7, 7, 138)10%,rgb(19, 8, 175)34%,rgb(2, 2, 56) 34%);
-        height: 100vh;
-        height: 360px;
-        font-size: 47px;
-        display:flex;
-        flex-wrap: wrap;
-       margin: 0px;
+.container {
+    width: 80%;
+    max-width: 360px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1.2em;
+    margin: 0 auto;
+    background: hsl(0, 0%, 12%);
 }
-.buton:hover{
-border-color:rgb(128, 13, 93); 
-border-radius: 28%;
-}
-#myName{
-        margin-top: 1px;
-        margin-bottom: 0px;
-        margin-left: 5px;
-        margin-right:0px;
-}
-#role{
-        margin-top: 1px;
-        margin-bottom: 0px;
-        margin-left: 5px;
-        margin-right:0px;
-        font-family: cursive;
-        font-weight: lighter;
-        font-size: xx-large;
-}
-span{
-        font-style: italic;
-        letter-spacing: 1px;
-        color: darkseagreen;
-        font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-em, cite{
-        color: #06061b;
-    font-weight: 800;
-    font-family: 'Courier New', Courier, monospace;
-}
-ul{
-        background-image: url(pic/artbg.jpg);
-        font-weight: 600;
-        font-size: 25px;
-        font-family: monospace;
-        text-decoration: none;
-        color: darkgoldenrod;
-}
- body{
-        font-family: Georgia, 'Nimbus Roman No9 L', 'Century Schoolbook L', serif;
-        font-size: 20px;
-        line-height: 1.45;
-        color: black;
-        margin: 0px;
- }
-
-.description{
-        font-size: 28px;
-        font-weight: 500;
-}
-h2{
-                font-size: 176%;
-                color: rgb(21, 12, 77);
-                font-style: italic;
-}
-table {
-        border-width: 0px;
-        table-layout: fixed;
-        font-family: Segoe UI Light;
-        letter-spacing: 0.02em;
-        background-color: #181837;
-        color: #F0F101;
-        border-collapse: separate;
-        text-indent: initial;
-        font-size: 20px;
-        margin-block: 19px;
-        border-spacing: 26px;
-        tbody   {
-        display: table-row-group;
-        vertical-align: middle;
-        border-color: inherit;
-        }
-}
-.background-pic {
-        height: auto;
-        width: 100%;
-        opacity: 0.1; 
-    }
-    .background-pic:hover {
-         opacity: 1; 
-    }
-    .conTact{
-        margin-left: 60px;
-        margin-bottom: 36px;
-    }
 a {
-        text-decoration: none;
-        color: rgb(16, 1, 104);
-        font-size: 21px;
-        font-style: oblique;
-    }
-    footer{
-        background-color: #181818;
-    color: #11EEF4;
-    font-size: medium;
-    letter-spacing: 1px;
-    }
-#contact{
-        margin:0;
-        font-family: monospace;
+    text-decoration: none;
+    color: inherit;
 }
-#contact :hover{
-        text-decoration: underline;
-        color: whitesmoke;
+img {
+    max-width: 100%;
+    object-fit: contain;
+    width: 26%;
+    height: 26%;
+    border-radius: 100px;
+    margin: 1em;
 }
-    .contact{
-        margin-bottom: 1px;
-    color: blue;
-    font-size: larger;
-    font-weight: 100;
-    text-decoration: underline;
-    }
-.footer_p{
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: center;
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0.9em;
 }
- .Hobbies{
-        background-image: url(artbg.jpg);
-        display: grid;
-        justify-items: center;
- }
- .footer_p{
-        margin-top: 2px;
- }
-.background-pic{
-         width: auto;
-         height: auto;
+.job__title .location {
+margin-bottom: 2em;
+color:rgb(196 248 42);
 }
- .Languages{
-        background-image: url(languagebg.jpg);
-        display: grid;
-        justify-items: center;
+.job__title h2, .location {
+    font-weight: 700;
+}
+
+.handle {
+    font-weight: 600;
+    padding: 0.6em 0.1em;
+    background: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    margin: 0.7em 0;
+}
+.handle:focus,
+.handle:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:rgb(31 31 31);
+    cursor: pointer;
 }
